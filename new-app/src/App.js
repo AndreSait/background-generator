@@ -7,7 +7,8 @@ import { wait } from '@testing-library/react';
 class App extends Component{
   constructor() {
     super();
-    wat();
+    
+    
 
     this.state = {
       monsters: [],
