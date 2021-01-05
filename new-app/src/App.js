@@ -8,7 +8,7 @@ class App extends Component{
   constructor() {
     super();
     
-    
+    where is this going now from here
 
     this.state = {
       monsters: [],
