@@ -8,8 +8,6 @@ class App extends Component{
   constructor() {
     super();
     
-    where is this going now from here
-
     this.state = {
       monsters: [],
       searchField: ""
@@ -36,6 +34,7 @@ class App extends Component{
       )
     return (
       <div className="App">
+        <h1> Monsters Rolodex </h1>
         <SearchBox 
           placeholder="search monsters"
           handleChange={this.handleChange}
